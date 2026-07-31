@@ -17,7 +17,7 @@ const plexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   title: "Rodrigo — Backend Engineer",
   description:
-    "Portfolio of Rodrigo Amarilla, backend engineer specializing in distributed systems and API design.",
+    "Portfolio of Rodrigo Amarilla, backend engineer focused on distributed systems and API design.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="es"
+      lang="en"
       className={`${spaceGrotesk.variable} ${plexSans.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-body">
